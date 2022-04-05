@@ -1,0 +1,64 @@
+body {
+    background-color: beige;
+    font-size: large;
+}
+button{
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 5px;
+    height: 20px;
+    width: 150px;
+}
+div.igual {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(54, 53, 53);
+    margin: auto;
+    color: rgb(252, 217, 165);
+    margin-top: 20px;
+}
+div.suma {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(54, 53, 53);
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(252, 217, 165);
+}
+div.intercambiar {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(54, 53, 53);
+    color: rgb(252, 217, 165);
+    margin: auto;
+    margin-top: 20px;
+}
+div.menor {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(54, 53, 53);
+    color: rgb(252, 217, 165);
+    margin: auto;
+    margin-top: 20px;
+
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+.contenedorNum{
+    text-align: center;
+}
+
+
