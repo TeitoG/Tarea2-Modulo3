@@ -11,19 +11,13 @@ let btnIntercambiar = document.getElementById('intercambiar');
 btnIntercambiar.addEventListener('click', Intercambiar)
 
 
-function Suma(nums){
+function Suma(){
     let Num1 = document.getElementById("num1").value;
     let Num2 = document.getElementById("num2").value;
-    var Nume1 = parseInt(Num1);
-    var Nume2 = parseInt(Num2);
-    if (nums instanceof Array ){
-        let suma = nums.reduce((Nume1, Nume2) => Nume1 + Nume2);
-        alert(suma)
-        return suma;
-        
-    }else {
-    }
-Suma([Nume1, Nume2 ])
+    let num1Pos = -Math.abs(Num1);
+    let suma = num1Pos - Num2
+    let resultado = Math.abs(suma)
+    alert ("La suma de los dos números es: "+resultado)
 } 
 
 
@@ -47,11 +41,8 @@ function Igual(){
 }
 
 function Intercambiar(){
-    let Num1 = document.getElementById("num1").value;
-    let Num2 = document.getElementById("num2").value;
-    let intercambio = Num1;
-    Num1 = Num2
-    Num2 = intercambio
+    let Num1 = document.getElementById("num2").value;
+    let Num2 = document.getElementById("num1").value;
     document.getElementById('num1').value = Num1;
     document.getElementById('num2').value = Num2;
     alert("el número 1 ahora es: " + Num1 + " El número 2 ahora es: " + Num2)
